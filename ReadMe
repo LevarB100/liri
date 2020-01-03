@@ -1,0 +1,43 @@
+WHAT DOES THE PROJECT DO:
+The purpose of this project is to make a app that once you put one of four commands 
+into the app, it then performs the command. The commands and correspondingactions 
+are as follows:
+[---node liri.js spotify-this-song "any song"] = When this command is given the 
+app will return the Artist of the song, Name of the song, Album of the 
+song and the year of the song entered.
+
+[---node liri.js concert-this "any musician"] = When this command is given the 
+app will return with a list of upcoming concerts and the location of 
+the concert for the musician entered into the command.
+
+[---node liri.js movie-this "any movie"] = When this command is given the 
+app will return with the Ratings, Title, Year made, Plot, and list of actors for the 
+movie placed in the command.
+
+[---node liri.js do-what-it-says] = When this command is given the 
+app will do one of the three previous different actions depending 
+on the command. If it has no command it will return the information
+for the Britney Spear's song "hit me baby one more time".
+
+
+WHY WAS THIS PROJECT USEFUL:
+This project was useful in demonstrating how the command line in 
+node command be used to dictate the operation of an application.
+
+
+HOW CAN USERS GET STARTED WITH THIS PROJECT:
+Users can get started with this project by copying all the code and then using it in 
+their terminal.
+
+
+WHERE CAN USERS GET HELP WITH THIS PROJECT:
+Users can get help using this project by contacting me through GITHUB.
+
+
+WHO MAINTAINS AND CONTRIBUTES TO THIS PROJECT:
+I am the only person who maintains and contributes to this project.
+
+
+
+
+THE LINKS FOR THIS PROJECT ARE:

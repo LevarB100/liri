@@ -7,7 +7,6 @@ var axios = require("axios");
 
 var command = process.argv[2];
 var query = process.argv[3];
-//var valuemore = process.argv.slice[3].join("-");
 
 switch (command) {
   case "concert-this":
@@ -61,9 +60,7 @@ function spotifyThisSong() {
     if (err) {
       return console.log("Error occurred: " + err);
     }
-    //console.log(data);
-    //console.log(data.items[0]);
-    // console.log(data.tracks.items[0].name);
+
     for (let i = 0; i < data.tracks.items[0].artists.length; i++) {
       if (i === 0) {
         console.log("Artist(s): " + data.tracks.items[0].artists[i].name);
