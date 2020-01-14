@@ -5,7 +5,7 @@ var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 var axios = require("axios");
 
-var command = process.argv[2];
+var comand = process.argv[2];
 var query = process.argv[3];
 
 switch (command) {
