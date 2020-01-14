@@ -68,7 +68,7 @@ function spotifyThisSong() {
         console.log("         " + data.tracks.items[0].artists[i].name);
       }
     }
-    console.log("Song:         " + data.tracks.items[0].na);
+    console.log("Song:         " + data.tracks.items[0].name);
     console.log("Preview Link: " + data.tracks.items[0].preview_url);
     console.log("Album:        " + data.tracks.items[0].album.name);
   });
