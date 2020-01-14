@@ -39,7 +39,7 @@ function concertThis() {
         "&client_id=MTk1MTE5NzV8MTU3NDAyNzY4OS40Mw"
     )
     .then(function(response) {
-      for (let i = 0; i < response.dat.events.length; i++) {
+      for (let i = 0; i < response.data.events.length; i++) {
         console.log(response.data.events[i].venue.name);
         console.log(response.data.events[i].venue.address);
       }
