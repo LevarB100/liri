@@ -16,7 +16,7 @@ switch (command) {
 
   case "spotify-this-song":
     console.log("spotifying");
-    spotifyThisSong(query);
+    spotifyThisSon(query);
     break;
 
   case "movie-this":
