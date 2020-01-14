@@ -56,7 +56,7 @@ function spotifyThisSong() {
   //   console.log(data.tracks.items[0].album.artists[0].name);
   // });
 
-  spotify.sear({ type: "track", query: query }, function(err, data) {
+  spotify.search({ type: "track", query: query }, function(err, data) {
     if (err) {
       return console.log("Error occurred: " + err);
     }
