@@ -2,7 +2,7 @@
 
 ### Overview
 
-This Node.js command line application called Liri uses various node packages to make API requests. Users are able search for songs, movies and upcoming band performances and will receive information in return about their given search term. Specifically, it requests information from the Bands in Town, Spotify and OMDB API's. By making the request for the specific information in the command line the user receives their answer. Information on a specific song or artist, Information on a specific movie or concert dates and locations of a specific artist.
+This Node.js command line application called Liri uses various node packages to make API requests. Users are able search for songs, movies and upcoming events using the command line. LIRI will use specific commands to look up information using APIs and then return the requested information to the user. Specifically, it requests information from the Bands in Town, Spotify and OMDB API's. By making the request for the specific information in the command line the user receives their answer. Information on a specific song or artist, information on a specific movie or concert dates and locations of a specific artist are all at the tip of your fingers with LIRI..
 
 ### Installing
 
